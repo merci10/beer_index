@@ -1,0 +1,229 @@
+@charset "uft-8"
+
+/* common */
+
+body {
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	line-height: 2;
+}
+	
+.btn {
+	display: inline-block;
+	width: 290px;
+	line-height: 45px;
+	background: #fff;
+	text-align: center;
+	color: #f39800;
+	border-radius: 5px;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+section:nth-child(2n) .btn {
+	background: #aaa;
+	color: #fff;
+}
+
+.mini-btn {
+	display: inline-block;
+	width: 150px;
+	line-height: 24px;
+	background: #fff;
+	text-align: center;
+	color: #f39800;
+	border-radius: 5px;
+	opacity: 0.9;
+	cursor: pointer;
+	margin-top: 0;
+}
+
+section:nth-child(2n) .mini-btn {
+	background: #aaa;
+	color: #fff;
+}
+
+.btn:hover {
+	opacity: 1.0;
+}
+
+.mini-btn:hover {
+	opacity: 1.0;
+}
+
+.shadow {
+	box-shadow: 0 0 10px black;
+}
+
+section {
+	padding: 90px 0;
+}
+
+section:nth-child(odd) {
+	background: #f8f8f8;
+}
+
+section .container {
+	width: 820px;
+	margin: 0 auto;
+}
+
+section h2 {
+	font-size: 26px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0 0 90px;
+}
+
+section
+h2:after {
+	/*content: '- title -';*/
+	display: block;
+	font-size: 18px;
+	color: #aaa;
+	padding-top: 10px;
+}
+
+.pull-right {
+	float: right;
+	padding-left: 40px;
+}
+
+.pull-left {
+	float: left;
+	padding-right: 40px;
+}
+
+.style p {
+	margin-top: 0;
+}
+
+.style .brand {
+	display: none;
+}
+
+/* header */
+
+header {
+	background: url('../img/bg.jpg');
+	background-size: cover;
+	background-position: 30% 40%;
+}
+
+header .inner-bg {
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-top: 10px;
+}
+
+header .container {
+	width: 820px;
+	margin: 0 auto;
+	height: 320px;
+	position: relative;
+	padding-top: 10px;
+}
+
+
+header h1, header p {
+	color: #fff;
+}
+
+header p {
+	padding-top: 40px;
+}
+
+header h1 {
+	font-size: 34px;
+	margin-bottom: 50px;
+}
+
+header img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#call-to-action {
+	display: inline-block;
+	width: 100px;
+	line-height: 30px;
+	background: #aaa;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	float: right;
+	padding: 3px 10px;
+	opacity: 0.8;
+}
+
+#call-to-action:hover {
+	opacity: 1.0;
+}
+
+/* lager-ale */
+
+#lager-ale h2:after {
+	content: '- 下面発酵(ラガー) or 上面発酵(エール) -';
+}
+
+.row .desc {
+	width: 480px;
+}
+
+.row {
+	overflow: hidden;
+	margin-bottom: 90px;
+}
+
+.row:last-child {
+	margin-bottom: 0;
+}
+
+#lager-ale {
+	font-size: 18px;
+}
+
+/* lager-style */
+
+#lager-style h2:after {
+	content: '- ラガーに属するスタイル -';
+}
+
+.style {
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+
+.style img {
+	border-radius: 50%;
+}
+
+.style .desc {
+	width: 680px;
+}
+
+.style:last-child {
+	margin-bottom: 0;
+}
+
+/* ale-style */
+
+#ale-style h2:after {
+	content: '- エールに属するスタイル -';
+}
+
+
+
+
+
+
+
+
